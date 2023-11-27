@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.appItem-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 170px;
+  width: 170px;
+  margin: 8px;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .appItem-container {
+    height: 165px;
+    width: 140px;
+  }
+}
+
+.app-image {
+  height: 80px;
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+  .app-image {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+@media (max-width: 768px) {
+  .app-name {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.list-item-container {
+  list-style-type: none;
+}
+.tab-text {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #7b8794;
+}
+
+.active-tab-item {
+  color: #2563eb;
+  border-bottom: 2px #2563eb solid;
+  padding-bottom: 10px;
+}
